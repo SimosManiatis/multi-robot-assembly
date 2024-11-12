@@ -3,20 +3,20 @@
 CORE 2024 is a project focused on designing a system of multi-robot assembly of rigidity-preserving structures, all while eliminating the use of scaffolding. This is done through the a multi-robot setup where robots act both as workers and scaffolding ensuring rigidity along the (dis)assembly process. Topological / geometry contstraints are necessary to ensure that each step of the assembly is locally and globally rigid. Our project starts by reconfiguring an existing design with those constraints in mind, then through an assembly sequence algorithm which creates the order of steps of assembly ensuring rigidity is working in cooperation with the structural reconfiguration and optimisation setup for evalutation, and the same ordered elements are used in combination with the multi-robot framework to generate the assembly programs for the robots.
 
 **Make sure you check the requirements**
-[Requirements](https://github.com/Antonios-M/CORE_2024/blob/main/requirements.txt)
+[Requirements](https://github.com/SimosManiatis/multi-robot-assembly/blob/main/requirements.txt)
 
 **Read the full documentation of the project:**
-[Team07ProjectPortfolio.pdf](https://github.com/Antonios-M/CORE_2024/blob/main/Team07ProjectPortfolio.pdf)
+[Team07ProjectPortfolio.pdf](https://github.com/SimosManiatis/multi-robot-assembly/blob/main/Team07ProjectPortfolio.pdf)
 
 (Open the .pdf file externally since GitHub may not display all the images properly)
 
 **The Rhinoceros & RoboDk files necessary to run the software can be found in the external links below**
 
 ## Instructions for the Robot Prototype: 
-[RoboticAssembly.md](https://github.com/Antonios-M/CORE_2024/blob/main/gh/robotic_assembly/RoboticAssembly.md)
+[RoboticAssembly.md](https://github.com/SimosManiatis/multi-robot-assembly/blob/main/gh/robotic_assembly/RoboticAssembly.md)
 
 **Example File for the Assembly Sequence Algorithm:**
-[Examples](https://github.com/Antonios-M/CORE_2024/tree/main/examples)
+[Examples](https://github.com/SimosManiatis/multi-robot-assembly/tree/main/examples)
 
 ## Repository Structure
 
@@ -35,15 +35,15 @@ This repository provides access to the three main components of the project:
 The core structure of this computational framework is integrated into all parts of the project.
 
 **Required Files:**
-  • [assembly_sequence_and_cutting_stock.gh](https://github.com/Antonios-M/CORE_2024/blob/main/gh/assembly_sequence/assembly_sequence_and_cutting_stock.gh)
+  • [assembly_sequence_and_cutting_stock.gh](https://github.com/SimosManiatis/multi-robot-assembly/blob/main/gh/assembly_sequence/assembly_sequence_and_cutting_stock.gh)
 
 2) **The Structure Design & Optimisation Algorithm**
 
 **Required Files:**
 
-  • [241105_Combined model.gh](https://github.com/Antonios-M/CORE_2024/blob/main/gh/structural_optimisation/241105_Combined%20model.gh)  
+  • [241105_Combined model.gh](https://github.com/SimosManiatis/multi-robot-assembly/blob/main/gh/structural_optimisation/241105_Combined%20model.gh)
   • [241105_Combined model.3dm](https://drive.google.com/file/d/1Ds01K0zyoJiDR4t8Iob-g5H5hhUbotOR/view?usp=sharing)  
-  • [on_site_assembly.xlsx](https://github.com/Antonios-M/CORE_2024/blob/main/gh/structural_optimisation/on_site_assembly.xlsx)
+  • [on_site_assembly.xlsx](https://github.com/SimosManiatis/multi-robot-assembly/blob/main/gh/structural_optimisation/on_site_assembly.xlsx)
 
 3) **The Multi-Robot Assembly Setup Algorithm**
 
@@ -51,10 +51,10 @@ The core structure of this computational framework is integrated into all parts 
 
   • [RoboticAssemblyPrototype.3dm](https://drive.google.com/file/d/1RJFRhfzesO6kzf9160D5oSREZPiYviEM/view?usp=drive_link)  
   • [RoboticAssemblyPrototype.rdk](https://drive.google.com/file/d/1FT9tKub4zBwlEuxIuXIC0ZLAkGPYGocG/view?usp=drive_link)  
-  • [RoboticAssemblyPrototype.gh](https://github.com/Antonios-M/CORE_2024/blob/main/gh/robotic_assembly/RoboticAssemblyPrototype.gh)
+  • [RoboticAssemblyPrototype.gh](https://github.com/SimosManiatis/multi-robot-assembly/blob/main/gh/robotic_assembly/RoboticAssemblyPrototype.gh)
 
 **Optional External Interface:**
-  • [RobotManager.py](https://github.com/Antonios-M/CORE_2024/blob/main/src/robotic_assembly/RobotManager.py)
+  • [RobotManager.py](https://github.com/SimosManiatis/multi-robot-assembly/blob/main/src/robotic_assembly/RobotManager.py)
 
 ---
 
@@ -96,7 +96,7 @@ The core structure of this computational framework is integrated into all parts 
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Antonios-M/CORE_2024.git
+   gh repo clone SimosManiatis/multi-robot-assembly
 
 2. Install Pre-requisites
 **Rhinoceros 8,RoboDk & Karamba need licenses ro run.**
@@ -104,7 +104,7 @@ The core structure of this computational framework is integrated into all parts 
 ### Contact
 
 For questions or support, please contact:
-**Email** : smaniatis@tudelft.nl
+**Email** : smaniatis@tudelft.nl , P.Feijen@student.tudelft.nl, s.a.bentvelsen@student.tudelft.nl, A.Mavrotas@student.tudelft.nl
 
 ### Citation 
 [GH_Linear_Cutting GitHub Repository](https://github.com/AlexanderMorozovDesign/GH_Linear_Cutting)
